@@ -1,4 +1,4 @@
 FROM alpine
 
-RUN apk add --no-cache strace tcpdump wget
+RUN apk update && apk add --no-cache strace tcpdump wget curl lsof
 
